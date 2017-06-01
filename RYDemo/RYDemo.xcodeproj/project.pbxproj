@@ -14,6 +14,7 @@
 		A495BEA71EDFC1220007DE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A495BEA51EDFC1220007DE3D /* Main.storyboard */; };
 		A495BEA91EDFC1220007DE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A495BEA81EDFC1220007DE3D /* Assets.xcassets */; };
 		A495BEAC1EDFC1220007DE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A495BEAA1EDFC1220007DE3D /* LaunchScreen.storyboard */; };
+		A495BEB61EDFC2F70007DE3D /* RYLabelCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A495BEB51EDFC2F70007DE3D /* RYLabelCollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A495BEA81EDFC1220007DE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A495BEAB1EDFC1220007DE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A495BEAD1EDFC1230007DE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A495BEB41EDFC2F70007DE3D /* RYLabelCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLabelCollection.h; sourceTree = "<group>"; };
+		A495BEB51EDFC2F70007DE3D /* RYLabelCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLabelCollection.m; sourceTree = "<group>"; };
 		BAF1EDFA197C79852628665D /* Pods-RYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYDemo/Pods-RYDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DF195E40796EF9520EF82640 /* Pods-RYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYDemo/Pods-RYDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +93,8 @@
 		A495BEB31EDFC2990007DE3D /* RYLabelCollection */ = {
 			isa = PBXGroup;
 			children = (
+				A495BEB41EDFC2F70007DE3D /* RYLabelCollection.h */,
+				A495BEB51EDFC2F70007DE3D /* RYLabelCollection.m */,
 			);
 			path = RYLabelCollection;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A495BEA41EDFC1220007DE3D /* ViewController.m in Sources */,
+				A495BEB61EDFC2F70007DE3D /* RYLabelCollection.m in Sources */,
 				A495BEA11EDFC1220007DE3D /* AppDelegate.m in Sources */,
 				A495BE9E1EDFC1220007DE3D /* main.m in Sources */,
 			);
