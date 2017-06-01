@@ -1,12 +1,15 @@
 PODS:
   - Masonry (1.0.2)
+  - RYLabelCollection (0.0.1):
+    - Masonry
 
 DEPENDENCIES:
-  - Masonry
+  - RYLabelCollection
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RYLabelCollection: 2cc6d07cbbf7650c797aefa7525fa819d1ab4d1a
 
-PODFILE CHECKSUM: 792bbf9633d7733d4d18304bc61fcfc9c8668e7e
+PODFILE CHECKSUM: 06e1cd1d90fe9fb75aa2adbf9661320e22bd078c
 
 COCOAPODS: 1.2.0
